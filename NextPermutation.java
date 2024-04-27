@@ -25,7 +25,7 @@ class Solution {
             }
             r--;
         }        
-        if(r==0)
+        if(r==0 && nums[0]>nums[end])
            reverse(nums,0,end);       
     }
     
